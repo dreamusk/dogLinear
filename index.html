@@ -1,0 +1,89 @@
+<style>
+
+  /* USAGE -> The caption text will be displayed on mouseover.
+  Please use a unique caption text for each image ID    
+  */
+      
+  .wall_img_1 {width:100%;height:600px;margin:40px auto; transition: all .2s ease-in-out;} 
+  .wall_img_2 {width:100%;height:400px;margin:20px auto; transition: all .2s ease-in-out;} 
+  .wall_img_1:hover,.wall_img_2:hover{filter: grayscale(80%)}
+  .wall_img_1:before,.wall_img_2:before {content: attr(id);opacity:0;transition: all .2s ease-in-out;width:100%;position:absolute;top:40%;text-align:center;display:block;font-size:22px;color:#fff; mix-blend-mode: overlay;}
+  .wall_img_1:hover::before,.wall_img_2:hover::before {content: attr(id);opacity:1;}
+  
+  </style>
+  
+  <div class="container-fluid position-relative overflow-hidden">
+      <div class="row ">
+          <div class="col-md-8 offset-md-2">
+              <div class="lc-block text-center">
+                  <span editable="inline" class="small mt-4 d-block">Dogs Breed</span>
+                  <h2 editable="inline" class="display-2 mb-0"><b>ANKIT'S Gallery</b></h2>
+                  <p editable="inline"> Various breed images are here along with name of breed<br> cute, puppie and Dogs</p>
+              </div><!-- /lc-block -->
+          </div><!-- /col -->
+      </div>
+      <div class="row">
+          <div class="col-lg-6">
+              <div class="row ">
+                  <div class="col-sm-6">
+                      <div class="lc-block">
+                          <div lc-helper="background" class="wall_img_1 rounded" style="background-size: cover; background-position: center; background-image: url(https://wallpaperaccess.com/full/266689.jpg);" id="The Photo Title">
+                          </div>
+                          <div lc-helper="background" class="wall_img_1 rounded" style="background-size: cover; background-position: center; background-image: url(http://wallpaperset.com/w/full/0/d/8/200509.jpg);" id="landscape 2">
+                          </div>
+                      </div>
+                      <!-- /lc-block -->
+                  </div>
+                  <div class="col-sm-6">
+                      <div class="lc-block ">
+                          <div lc-helper="background" class="wall_img_2 rounded" style="background-size: cover; background-position: center; background-image: url(http://images2.fanpop.com/image/photos/13900000/Pretty-Dog-wallpaper-puppies-13906495-1920-1200.jpg);" id="My title goes here">
+                          </div>
+                      </div>
+                      <div class="lc-block ">
+                          <div lc-helper="background" class="wall_img_2 rounded" style="background-size: cover; background-position: center; background-image: url(https://c4.wallpaperflare.com/wallpaper/879/797/135/puppy-dog-background-wallpaper-preview.jpg);" id="This is my landscape">
+                          </div>
+                      </div>
+                      <div class="lc-block ">
+                          <div lc-helper="background" class="wall_img_2 rounded" style="background-size: cover; background-position: center; background-image: url(https://media.istockphoto.com/photos/mameshibainu-picture-id1214044812?k=20&m=1214044812&s=612x612&w=0&h=iiV83PaKKsatuh-oPtGVa_rnT8aA26wKnsnN05P0wmo=);" id="landscape 3">
+                          </div>
+                      </div>
+                      <!-- /lc-block -->
+                  </div>
+              </div>
+              <!-- /lc-block -->
+          </div><!-- /col -->
+          <div class="col-lg-6">
+              <div class="row">
+                  <div class="col-sm-6">
+                      <div class="lc-block">
+                          <div lc-helper="background" class="wall_img_1 rounded" style="background-size: cover; background-position: center; background-image: url(https://images8.alphacoders.com/380/thumb-1920-380977.jpg);" id="My photo">
+                          </div>
+                      </div>
+                      <div class="lc-block ">
+                          <div lc-helper="background" class="wall_img_1 rounded" style="background-size: cover; background-position: center; background-image: url(https://wallpaperaccess.com/full/1101025.jpg);" id="landscape 5">
+                          </div>
+                      </div>
+                      <!-- /lc-block -->
+                  </div>
+                  <div class="col-sm-6">
+                      <div class="lc-block ">
+                          <div lc-helper="background" class="wall_img_2 rounded" style="background-size: cover; background-position: center; background-image: url(https://images5.alphacoders.com/466/466168.jpg);" id="landscape 8">
+                          </div>
+                      </div>
+                      <div class="lc-block ">
+                          <div lc-helper="background" class="wall_img_2 rounded" style="background-size: cover; background-position: center; background-image: url(https://wallpaperaccess.com/full/327879.jpg);" id="landscape 11">
+                          </div>
+                      </div>
+                      <div class="lc-block ">
+                          <div lc-helper="background" class="wall_img_2 rounded" style="background-size: cover; background-position: center; background-image: url(https://imagesvc.meredithcorp.io/v3/mm/image?q=60&c=sc&poi=face&w=2000&h=1000&url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F34%2F2022%2F03%2F22%2Fhappy-labrador-retriever-getty-0322-2000.jpg);" id="landscape 10">
+                          </div>
+                      </div>
+                      <!-- /lc-block -->
+                  </div>
+              </div>
+              <!-- /lc-block -->
+          </div><!-- /col -->
+  
+      </div><!-- /col -->
+  </div>
+  
